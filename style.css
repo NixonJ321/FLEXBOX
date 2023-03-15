@@ -1,23 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
 * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
+body {
+    padding: 32px;
+}
 
-.container {
+.logo {
+    font-weight: 900;
+    font-size: 24px;
+    font-family: inter;
+    padding-left: 24px;
+}
+
+.logo:hover {
+    color: rgb(100, 21, 255);
+    transition: ease-in-out 200ms;
+    cursor: pointer;
+}
+
+.logo__img {
+    border-radius: 2px;
+    width: 36px;
+    max-height: 36px;
+}
+
+.logo__wrapper {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.logo {
+    margin-right: 380px;
+    letter-spacing: .6px;
+    color: rgb(36, 62, 99);
+    margin-top: 4px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-content: end;
     width: 100%;
-    height: 600px;
-    border: 2px solid red;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.links {
+    
+    display: flex;
+    align-items: center;
+   font-family: inter;
+    font-weight: 300;
+}
+
+.link__primary {
+    font-size: 14px;
+    font-weight: 550;
+    margin-left: 48px;
+    margin-right: 24px;
+    padding-bottom: 4px;
+    list-style-type: none;
+    cursor: not-allowed;
+    color: rgb(36, 62, 99);
+    border-bottom: 2px solid;
+    border-bottom-color: transparent;
+    margin-top: 1px;
+    }
+
+    .link__primary:hover {
+        color: rgb(100, 21, 255);
+        transition: ease;
+        transition: 300ms;
+        border-bottom-color:rgb(100, 21, 255) ;
+        transition: 300ms;
+    }
+
+    .link:hover {
+        color: rgb(100, 21, 255);
+        transition: ease;
+        transition: 300ms;
+        border-bottom-color:rgb(100, 21, 255) ;
+        transition: 300ms;    
+    }
+
+    .link__lower {
+        display: flex;
+        margin-top: 7px;
+    }
+
+.link {
+    margin: 0px 24px;
+    padding-bottom: 4px;
+    font-size: 14px;
+    font-weight: 600 ;
+    list-style-type: none;
+    color: rgb(36, 62, 99);
+    align-items: center;
+    text-decoration: none;
+    cursor: not-allowed;
+    line-height: 24px;
+    border-bottom: 2px solid;
+    border-bottom-color: transparent;
+    letter-spacing: .3px;
+    line-height: 21px;
+
+    
+
+}
+
+.sign__up--button {
+    color: white;
+    border: 2px solid;
+    padding: 12px 32px;
+    border-radius: 50px;
+    list-style-type: none;
+    background-color: rgb(100, 21, 255);
+    font-family: inter;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sign__up--button:hover {
+    background-color:rgb(80, 20, 200);
+    transition: all ease-in-out 300ms;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+/*
+
+Intro
+
+*/
+
+.intro__row {
+    padding-top: 96px;
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.intro__text--wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: fle;
-    align-items: center;
-
-
-
-
+    justify-content: center;
+    max-width: 480.594px;
+    
 }
-.box {
-    width: 100px;
-    height: 100px;
-border: 2px solid black;
+
+.intro__img--wrapper {
+    display: flex;
+    align-content: center;
+    max-width: 705.25px;
 }
+
+.intro__header {
+    font-family: inter;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.purple__text {
+    color: rgb(100, 21, 255);
+    font-size: 48px;
+    font-family: inter;
+}
+
+.intro__para {
+    color: rgb(36 62 99);
+    margin: 32px 0px;
+    font-family: inter;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.email__wrapper {
+    position: relative;
+    max-width: 452px;
+    
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+
+.intro__input:hover {
+    border-color: rgb(187, 197, 212);
+    transition:  300ms ease-in-out;
+}
+
+.intro__input:on {
+    border: none;
+}
+
+.intro__input {
+    border: none;
+    padding: 20px 192px 20px 32px;
+    border-radius: 50px;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 500; 
+    border: solid 2px ;
+    border-color: rgb(226, 232, 240);
+    outline-color: rgb(226, 232, 240);
+}
+
+.intro__input:focus {
+    outline-color: rgb(100, 21, 255);
+}
+::placeholder {
+    color: rgb(187, 197, 212);
+}
+
+
+
+.intro__button {
+    position: absolute;
+    top: px;
+    right: 0px;
+    margin: 8px 8px 8px 0px;
+    padding: 16px 0px;
+    width: 160px;
+    border: 0px solid;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(100, 21, 255) ;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+}
+
+.intro__button:hover {
+    background-color: rgb(61, 16, 151);
+    cursor: not-allowed;
+    transition: all 300ms ease-out;
+} 
+
+.sponser__wrapper {
+    margin-top: 80px;
+}
+
+
