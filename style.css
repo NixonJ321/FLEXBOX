@@ -848,4 +848,258 @@ PLANS
 }
 
 
+/*
+
+TESTIMONIALS
+
+*/
+
+.test__row {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 96px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.test__img--wrapper {
+  max-width: 50%;
+}
+
+.test__img {
+  max-width: 100%;
+}
+
+.test__text--wrapper {
+  width: 50%;
+  padding-left: 64px;
+}
+
+.test__subheader {
+  padding-top: 32px;
+  font-family: inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1.5px;
+  color: rgb(100, 21, 255);
+}
+
+.test__header {
+  margin-top: 16px;
+  font-family: inter;
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(36, 62, 99);
+  letter-spacing: 1px;
+}
+
+.test__para {
+  max-width: 575px;
+  margin-top: 24px;
+  font-family: inter;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(124, 139, 161);
+  line-height: 32px;
+}
+
+.test__review {
+  margin-top: 40px;
+  width: 100%;
+}
+
+
+.review__star {
+  color: gold;
+}
+
+.review__header {
+  margin-top: 16px;
+  font-family: inter;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(36, 62, 99);
+}
+
+.review__para {
+  margin: 16px 0px 40px 0px;
+  font-family: inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px;
+  color: rgb(74, 85, 104);
+}
+
+.review__person {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.review__img {
+  max-width: 80px;
+  border-radius: 50px;
+}
+
+.person__text {
+  margin-left: 24px;
+}
+.person {
+  display: flex;
+  align-items: center;
+}
+
+.person__name {
+  font-family: inter;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(36, 62, 99);
+}
+
+.person__role {
+  font-family: inter;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(124, 139, 161);
+}
+
+.review__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.left__button {
+  margin: 0px 12px;
+  padding: 16px;
+  font-size: 16px;
+  border: solid 0px;
+  border-radius: 50px;
+  background-color: rgb(237, 242, 247);
+  color: rgb(100, 21, 255);
+  cursor: not-allowed;
+}
+
+.left__button:hover {
+  transition: all 300ms;
+  background-color: rgb(227, 230, 235);
+  cursor: not-allowed;
+}
+
+.divider {
+  width: 0px;
+  height: 24px;
+  border-right: solid 1.111px;
+  border-color: rgb(226, 232, 240);
+}
+
+.right__button {
+  margin: 0px 12px;
+  padding: 16px;
+  font-size: 16px;
+  border: solid 0px;
+  border-radius: 50px;
+  background-color: rgb(237, 242, 247);
+  color: rgb(100, 21, 255);
+  cursor: not-allowed;
+}
+
+.right__button:hover {
+  transition: all 300ms;
+  background-color: rgb(227, 230, 235);
+  cursor: not-allowed;
+}
+
+
+/*
+
+FAQ
+
+*/
+
+.faq__row {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 96px 0px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.faq__text--wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq__subheader {
+  padding-top: 32px;
+  font-family: inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1.5px;
+  color: rgb(100, 21, 255);
+}
+
+.faq__header {
+  margin-top: 16px;
+  font-family: inter;
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(36, 62, 99);
+  letter-spacing: 1px;
+}
+
+.faq__para {
+  max-width: 575px;
+  margin-top: 16px;
+  font-family: inter;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(124, 139, 161);
+  line-height: 32px;
+}
+
+.faq__questions--wrapper {
+  max-width: 100%;
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.question__wrapper {
+  margin-top: 20px;
+}
+
+.faq__question {
+  width: 100%;
+  max-width: 895.990px;
+  margin-top: 20px;
+  margin: 0 auto;
+  padding: 16px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: solid 0px;
+  border-radius: 8px;
+  background-color: rgb(237, 242, 247);
+}
+
+.faq__question:hover {
+  transition: all 300ms;
+background-color: rgb(227, 230, 235);
+cursor: not-allowed;
+}
+
+.faq__question--text {
+  font-family: inter;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(45, 55, 72);
+}
+
+
 
