@@ -6,7 +6,7 @@
 }
 
 body {
-  padding: 32px;
+  padding-top: 32px;
 }
 
 .purple__text {
@@ -61,6 +61,7 @@ body {
   align-items: center;
   font-family: inter;
   font-weight: 300;
+  
 }
 
 .link__primary {
@@ -131,7 +132,6 @@ body {
   background-color: rgb(80, 20, 200);
   transition: all ease-in-out 300ms;
   cursor: not-allowed;
-
 }
 
 a {
@@ -507,7 +507,7 @@ VALUES
 }
 
 .values__row {
-    max-width: 1280px;
+  max-width: 1280px;
   padding: 96px 0px;
   display: flex;
 }
@@ -520,12 +520,12 @@ VALUES
 }
 
 .values__img {
-    max-width: 640px;
+  max-width: 640px;
 }
 
 .values__img--wrapper {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .values__subheader {
@@ -548,63 +548,64 @@ VALUES
 }
 
 .values__para {
-    margin-top: 32px;
-    font-family: inter;
-    font-size: 18px;
-    font-weight: 500;
-    color: rgb(124, 139, 161);
-    line-height: 32px;
+  margin-top: 32px;
+  font-family: inter;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(124, 139, 161);
+  line-height: 32px;
 }
 
 .values__points--wrapper {
-    display: flex;
+  display: flex;
 }
 
 .values__point {
-    margin: 32px 32px 0px 0px;
+  margin: 32px 32px 0px 0px;
 }
 
 .point__header {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .point__img {
-    padding: 8px 12px;
-    font-size: 20px;
-    color: rgb(39, 103, 73);
-    border: 0px;
-    border-radius: 50px;
-    background-color: rgb(154, 230, 180);
+  padding: 8px 12px;
+  font-size: 20px;
+  color: rgb(39, 103, 73);
+  border: 0px;
+  border-radius: 50px;
+  background-color: rgb(154, 230, 180);
 }
 
 .point__img--two {
-    color: rgb(155, 44, 44);
-    background-color: rgb(254, 178, 178);
+  padding: 8px;
+  color: rgb(155, 44, 44);
+  background-color: rgb(254, 178, 178);
 }
 
 .point__header--text {
-    margin-left: 12px;
-    font-family: inter;
-    font-size: 20px;
-    font-weight: 700;
-    color: rgb(36, 62, 99);
+  margin-left: 12px;
+  font-family: inter;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(36, 62, 99);
 }
 
 .point__para {
-    margin-top: 16px;
-    font-family: inter;
-    line-height: 26px;
-    color: rgb(113, 128, 150);
+  margin-top: 16px;
+  font-family: inter;
+  line-height: 26px;
+  color: rgb(113, 128, 150);
 }
 
 .values__button {
-    margin-top: 48px;
+  margin-top: 48px;
   color: white;
   border: 2px solid;
   padding: 12px 32px;
   border-radius: 50px;
-  
+
   list-style-type: none;
   background-color: rgb(100, 21, 255);
   font-family: inter;
@@ -613,11 +614,10 @@ VALUES
 }
 
 .values__button:hover {
-    background-color: rgb(80, 20, 200);
+  background-color: rgb(80, 20, 200);
   transition: all ease-in-out 300ms;
   cursor: not-allowed;
 }
-
 
 /*
 
@@ -683,7 +683,11 @@ PLANS
 
 .plan__hightlight {
   height: 8px;
-  background-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+  background-image: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
   border-top-right-radius: 50px;
   border-top-left-radius: 50px;
 }
@@ -707,7 +711,7 @@ PLANS
 
 .plan__price {
   margin: 16px 0px;
-  font-family: inter; 
+  font-family: inter;
   font-size: 48px;
   font-weight: 700;
   color: rgb(26, 32, 44);
@@ -739,7 +743,7 @@ PLANS
   font-size: 20px;
   font-weight: 700;
   color: rgb(26, 32, 44);
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
 .plan__feature {
@@ -765,9 +769,14 @@ PLANS
   color: rgb(247, 250, 252);
   border: solid 0px;
   border-radius: 50px;
-  background-image: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+  background-image: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
   display: flex;
   justify-content: center;
+  cursor: not-allowed;
 }
 
 .plan2__button {
@@ -779,14 +788,23 @@ PLANS
   color: rgb(247, 250, 252);
   border: solid 0px;
   border-radius: 50px;
-  background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+  background-image: linear-gradient(
+    135deg,
+    rgb(76, 81, 191) 0%,
+    rgb(102, 126, 234) 100%
+  );
   display: flex;
   justify-content: center;
+  cursor: not-allowed;
 }
 
 .plan2__hightlight {
   height: 8px;
-  background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+  background-image: linear-gradient(
+    135deg,
+    rgb(76, 81, 191) 0%,
+    rgb(102, 126, 234) 100%
+  );
   border-top-right-radius: 50px;
   border-top-left-radius: 50px;
 }
@@ -800,7 +818,11 @@ PLANS
   border: solid 1px;
   border-top: solid 0px;
   border-color: rgb(102, 126, 234);
-  background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+  background-image: linear-gradient(
+    135deg,
+    rgb(76, 81, 191) 0%,
+    rgb(102, 126, 234) 100%
+  );
 }
 
 .plan2__name {
@@ -812,7 +834,7 @@ PLANS
 
 .plan2__price {
   margin: 16px 0px;
-  font-family: inter; 
+  font-family: inter;
   font-size: 48px;
   font-weight: 700;
   color: rgb(247, 250, 252);
@@ -828,7 +850,11 @@ PLANS
 
 .plan__hightlight3 {
   height: 8px;
-  background-image: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+  background-image: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
   border-top-right-radius: 50px;
   border-top-left-radius: 50px;
 }
@@ -842,11 +868,18 @@ PLANS
   color: rgb(247, 250, 252);
   border: solid 0px;
   border-radius: 50px;
-  background-image: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+  background-image: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
   display: flex;
   justify-content: center;
 }
 
+.plan3__button:hover {
+  cursor: not-allowed;
+}
 
 /*
 
@@ -909,7 +942,6 @@ TESTIMONIALS
   margin-top: 40px;
   width: 100%;
 }
-
 
 .review__star {
   color: gold;
@@ -1011,7 +1043,6 @@ TESTIMONIALS
   cursor: not-allowed;
 }
 
-
 /*
 
 FAQ
@@ -1025,7 +1056,6 @@ FAQ
   padding: 96px 0px;
   display: flex;
   flex-direction: column;
-
 }
 
 .faq__text--wrapper {
@@ -1061,6 +1091,7 @@ FAQ
   font-weight: 500;
   color: rgb(124, 139, 161);
   line-height: 32px;
+  text-align: center;
 }
 
 .faq__questions--wrapper {
@@ -1076,7 +1107,7 @@ FAQ
 
 .faq__question {
   width: 100%;
-  max-width: 895.990px;
+  max-width: 895.99px;
   margin-top: 20px;
   margin: 0 auto;
   padding: 16px 40px;
@@ -1090,8 +1121,8 @@ FAQ
 
 .faq__question:hover {
   transition: all 300ms;
-background-color: rgb(227, 230, 235);
-cursor: not-allowed;
+  background-color: rgb(227, 230, 235);
+  cursor: not-allowed;
 }
 
 .faq__question--text {
@@ -1099,6 +1130,191 @@ cursor: not-allowed;
   font-size: 20px;
   font-weight: 600;
   color: rgb(45, 55, 72);
+}
+
+/*
+
+START
+
+*/
+
+.start__row {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 96px 0px;
+}
+
+.start__background {
+  background-color: rgb(100, 21, 255);
+  border-radius: 8px;
+}
+
+.start__content--wrapper {
+  height: 280px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 0px;
+  border-radius: 8px;
+}
+
+.start__text {
+  max-width: 480px;
+  font-family: inter;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(247, 250, 252);
+}
+
+.start {
+  margin-right: 32px;
+  padding: 20px 40px;
+  border: solid 0px;
+  border-radius: 50px;
+  font-family: inter;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(247, 250, 252);
+  background-color: rgb(245, 101, 101);
+}
+
+.start:hover {
+  transition: all 200ms ease-in-out;
+  background-color: rgb(241, 64, 64);
+  cursor: not-allowed;
+}
+
+.contact {
+  padding: 20px 40px;
+  border: solid 1px;
+  border-color: rgb(247, 250, 252);
+  border-radius: 50px;
+  font-family: inter;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(247, 250, 252);
+  background-color: rgb(100, 21, 255);
+}
+
+.contact:hover {
+  transition: all 200ms ease-in-out;
+  color: rgb(100, 21, 255);
+  background-color: rgb(247, 250, 252);
+  cursor: not-allowed;
+}
+
+/*
+
+  FOOTER
+
+*/
+
+.footer__container {
+  width: 100%;
+  background-color: rgb(100, 21, 255);
+}
+
+.footer__row {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 36px 0px;
+  
+}
+
+.footer__background {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__list {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.footer__list--header {
+  margin-bottom: 24px;
+  font-family: inter;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(247, 250, 252);
+}
+
+.footer__list--item {
+  margin-top: 12px;
+  padding-bottom: 4px;
+  font-family: inter;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(247, 250, 252);
+}
+
+.footer__list--item:hover {
+cursor: not-allowed;
+}
+
+.footer__divider {
+  margin: 64px 0px;
+  border-bottom: solid 2px;
+  border-color: rgb(116, 44, 255) ;
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo--wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer__logo {
+  max-width: 32px;
+}
+
+.footer__logo--text {
+  margin-left: 8px;
+  font-family: inter;
+  font-size: 20px;
+  font-weight: 900;
+  color: rgb(247, 250, 252);
+}
+
+.footer__trademark {
+  font-family: inter;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(203, 213, 224);
+}
+
+.social {
+  margin-right: 16px;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 50px;
+  background-color: rgb(247, 250, 252);
+}
+
+.social:hover {
+  cursor: not-allowed;
+}
+
+.social__f {
+  margin-right: 16px;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 50px;
+  background-color: rgb(247, 250, 252);
+}
+
+.social__f:hover {
+  cursor: not-allowed;
 }
 
 
